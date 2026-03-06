@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Projects</title>
+
+<link rel="stylesheet" href="portfolio.css">
+<link rel="stylesheet" href="project.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h2>Student Portfolio</h2>
+
+<nav>
+<a href="about.html">About</a>
+<a href="resume.html">Resume</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+
+
+<div class="projects-container">
+
+<div class="projects-title">
+PROJECTS
+</div>
+
+<div class="project-row">
+
+<div class="project-label">URL:</div>
+
+<div class="project-link">
+<a id="p1" target="_blank"></a>
+</div>
+
+</div>
+
+
+
+<div class="project-row">
+
+<div class="project-label">URL:</div>
+
+<div class="project-link">
+<a id="p2" target="_blank"></a>
+</div>
+
+</div>
+
+
+
+<div class="project-row">
+
+<div class="project-label">URL:</div>
+
+<div class="project-link">
+<a id="p3" target="_blank"></a>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+<script>
+
+let project1 = localStorage.getItem("project1");
+let project2 = localStorage.getItem("project2");
+let project3 = localStorage.getItem("project3");
+
+document.getElementById("p1").href = project1;
+document.getElementById("p1").innerText = project1;
+
+document.getElementById("p2").href = project2;
+document.getElementById("p2").innerText = project2;
+
+document.getElementById("p3").href = project3;
+document.getElementById("p3").innerText = project3;
+
+</script>
+
+
+</body>
+
+</html>

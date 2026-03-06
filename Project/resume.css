@@ -1,0 +1,111 @@
+body{
+font-family: Arial, sans-serif;
+background:#f3f3f3;
+margin:0;
+padding:0;
+}
+
+/* Resume Container */
+
+.resume-container{
+width:900px;
+margin:60px auto;
+background:white;
+display:flex;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+border-radius:6px;
+overflow:hidden;
+}
+
+
+/* Left Sidebar */
+
+.left-section{
+width:35%;
+background:#f0f0f0;
+padding:30px;
+}
+
+.profile-img{
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:20px;
+}
+
+.name{
+font-size:26px;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.role{
+color:#555;
+margin-bottom:20px;
+}
+
+
+/* Section Titles */
+
+.section-title{
+font-weight:bold;
+margin-top:25px;
+margin-bottom:10px;
+letter-spacing:1px;
+}
+
+
+/* Contact Details */
+
+.contact p{
+margin:6px 0;
+font-size:14px;
+}
+
+
+/* Skills List */
+
+.skills ul{
+padding-left:18px;
+margin:0;
+}
+
+.skills li{
+margin-bottom:6px;
+}
+
+
+/* Right Section */
+
+.right-section{
+width:65%;
+padding:40px;
+}
+
+
+/* Profile Text */
+
+.profile-text{
+line-height:1.6;
+margin-bottom:30px;
+color:#333;
+}
+
+
+/* Experience */
+
+.experience{
+margin-bottom:30px;
+}
+
+.experience p{
+margin:6px 0;
+}
+
+
+/* Education */
+
+.education p{
+margin:6px 0;
+}

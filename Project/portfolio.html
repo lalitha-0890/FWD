@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Portfolio</title>
+
+<link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h2 style="text-align: center;">Student Portfolio</h2>
+
+<nav>
+
+<a href="about.html">About</a>
+<a href="resume.html">Resume</a>
+<a href="project.html">Projects</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+
+
+<section class="main">
+
+
+<img id="profilePhoto" class="profile">
+
+
+
+<div class="info">
+
+<h1 id="portfolioName"></h1>
+
+<p id="profile"></p>
+
+
+<div class="buttons">
+
+<a href="about.html" class="btn about">About</a>
+<a href="resume.html" class="btn resume">Resume</a>
+<a href="projects.html" class="btn projects">Projects</a>
+<a href="contact.html" class="btn contact">Contact</a>
+
+</div>
+
+</div>
+
+
+</section>
+
+
+
+<footer>
+
+<p>Email: <span id="email"></span></p>
+
+<p>GitHub: <a id="github" target="_blank"></a></p>
+
+</footer>
+
+
+
+<script>
+
+/* Load stored data */
+
+document.getElementById("portfolioName").innerText =
+localStorage.getItem("name");
+
+document.getElementById("profile").innerText =
+localStorage.getItem("profile");
+
+document.getElementById("email").innerText =
+localStorage.getItem("email");
+
+
+
+/* GitHub clickable link */
+
+let github = localStorage.getItem("github");
+
+document.getElementById("github").href = github;
+document.getElementById("github").innerText = github;
+
+
+
+/* Load uploaded profile photo */
+
+document.getElementById("profilePhoto").src =
+localStorage.getItem("photo");
+
+
+</script>
+
+
+
+</body>
+
+</html>
