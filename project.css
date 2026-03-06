@@ -1,0 +1,59 @@
+body{
+font-family: Arial, sans-serif;
+background:#f3f3f3;
+margin:0;
+padding:0;
+}
+
+/* Page container */
+
+.projects-container{
+width:700px;
+margin:80px auto;
+background:white;
+padding:40px 60px;
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+
+/* Title */
+
+.projects-title{
+text-align:center;
+font-size:32px;
+font-weight:bold;
+margin-bottom:40px;
+letter-spacing:2px;
+}
+
+
+/* Instruction text */
+
+.projects-subtitle{
+font-size:18px;
+margin-bottom:30px;
+}
+
+
+/* URL rows */
+
+.project-row{
+display:flex;
+margin-bottom:20px;
+align-items:center;
+}
+
+.project-label{
+width:80px;
+font-weight:bold;
+}
+
+.project-link a{
+color:#0066cc;
+text-decoration:none;
+}
+
+.project-link a:hover{
+text-decoration:underline;
+}

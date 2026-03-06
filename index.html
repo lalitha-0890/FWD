@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Portfolio Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Student Portfolio Website</h1>
+
+<form id="portfolioForm">
+
+<h2>About</h2>
+
+<label>Name</label>
+<input type="text" id="name" required>
+
+<label>Date of Birth</label>
+<input type="date" id="dob" required>
+
+<label>Education</label>
+<textarea id="education" required></textarea>
+
+<label>Skills</label>
+<textarea id="skills" required></textarea>
+
+<label>Profile Photo</label>
+<input type="file" id="photo" accept="image/*" required>
+
+<h2>Resume</h2>
+
+<label>Main Skills</label>
+<textarea id="mainskills" required></textarea>
+
+<label>Profile</label>
+<textarea id="profile" required></textarea>
+
+<label>Phone</label>
+<input type="tel" id="phone" pattern="[0-9]{10}" maxlength="10" placeholder="Enter 10 digit phone number" required>
+<label>Email</label>
+<input type="email" id="email" required>
+
+<label>Address</label>
+<input type="text" id="address" required>
+
+<label>Experience</label>
+<textarea id="experience" required></textarea>
+
+<label>Education Details</label>
+<textarea id="eduDetails" required></textarea>
+
+<h2>Projects</h2>
+
+<input type="url" id="project1" placeholder="Project URL 1" required>
+<input type="url" id="project2" placeholder="Project URL 2" required>
+<input type="url" id="project3" placeholder="Project URL 3" required>
+
+<h2>Contact</h2>
+
+<label>LinkedIn</label>
+<input type="url" id="linkedin" required>
+
+<label>GitHub</label>
+<input type="url" id="github" required>
+
+<button type="submit">Create Portfolio</button>
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>

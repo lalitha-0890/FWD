@@ -1,0 +1,68 @@
+body{
+font-family: Arial, sans-serif;
+background:#f3f3f3;
+margin:0;
+padding:0;
+}
+
+/* Main container */
+
+.contact-container{
+width:700px;
+margin:80px auto;
+background:white;
+padding:40px 60px;
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+
+/* Title */
+
+.contact-title{
+text-align:center;
+font-size:32px;
+font-weight:bold;
+margin-bottom:40px;
+letter-spacing:2px;
+}
+
+
+/* Rows */
+
+.contact-row{
+display:flex;
+margin-bottom:20px;
+align-items:center;
+}
+
+.contact-label{
+width:120px;
+font-weight:bold;
+}
+
+.contact-value{
+flex:1;
+color:#333;
+}
+
+
+/* Links section */
+
+.links-title{
+margin-top:30px;
+font-weight:bold;
+font-size:18px;
+}
+
+
+/* Clickable links */
+
+.contact-value a{
+color:#0066cc;
+text-decoration:none;
+}
+
+.contact-value a:hover{
+text-decoration:underline;
+}
