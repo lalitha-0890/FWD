@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+
+    background: linear-gradient(-45deg,#667eea,#764ba2,#6dd5ed,#f7971e,#ffd200);
+    background-size:400% 400%;
+    animation: gradientBG 12s ease infinite;
+}
+
+/* Gradient animation */
+@keyframes gradientBG{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+/* Page title */
+
+h1{
+text-align:center;
+margin-top:40px;
+font-size:36px;
+letter-spacing:2px;
+}
+
+/* Main container */
+
+.about-container{
+width:700px;
+margin:60px auto;
+background:white;
+padding:40px 60px;
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Section rows */
+
+.row{
+margin-bottom:25px;
+display:flex;
+}
+
+.label{
+width:180px;
+font-weight:bold;
+}
+
+.value{
+flex:1;
+color:#333;
+}
+
+/* Skills section */
+
+.skills{
+margin-top:20px;
+line-height:1.8;
+}
